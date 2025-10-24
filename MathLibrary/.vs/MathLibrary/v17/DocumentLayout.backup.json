@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\texav\\source\\repos\\MathLibrary\\",
+  "WorkspaceRootPath": "C:\\Users\\texav\\Desktop\\MathLibraryProject\\MathLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C273602-B56B-4ADB-B597-4F9928DFEEAB}|MathLibrary.Client\\MathLibrary.Client.csproj|c:\\users\\texav\\source\\repos\\mathlibrary\\mathlibrary.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C273602-B56B-4ADB-B597-4F9928DFEEAB}|MathLibrary.Client\\MathLibrary.Client.csproj|solutionrelative:mathlibrary.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A35C40AD-07A3-4D1F-968A-774AD96AAF07}|MathLibrary\\MathLibrary.csproj|c:\\users\\texav\\source\\repos\\mathlibrary\\mathlibrary\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A35C40AD-07A3-4D1F-968A-774AD96AAF07}|MathLibrary\\MathLibrary.csproj|c:\\users\\texav\\desktop\\mathlibraryproject\\mathlibrary\\mathlibrary\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A35C40AD-07A3-4D1F-968A-774AD96AAF07}|MathLibrary\\MathLibrary.csproj|solutionrelative:mathlibrary\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A35C40AD-07A3-4D1F-968A-774AD96AAF07}|MathLibrary\\MathLibrary.csproj|c:\\users\\texav\\source\\repos\\mathlibrary\\mathlibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A35C40AD-07A3-4D1F-968A-774AD96AAF07}|MathLibrary\\MathLibrary.csproj|c:\\users\\texav\\desktop\\mathlibraryproject\\mathlibrary\\mathlibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A35C40AD-07A3-4D1F-968A-774AD96AAF07}|MathLibrary\\MathLibrary.csproj|solutionrelative:mathlibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C273602-B56B-4ADB-B597-4F9928DFEEAB}|MathLibrary.Client\\MathLibrary.Client.csproj|c:\\users\\texav\\source\\repos\\mathlibrary\\mathlibrary.client\\mathlibrary.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{3C273602-B56B-4ADB-B597-4F9928DFEEAB}|MathLibrary.Client\\MathLibrary.Client.csproj|c:\\users\\texav\\desktop\\mathlibraryproject\\mathlibrary\\mathlibrary.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C273602-B56B-4ADB-B597-4F9928DFEEAB}|MathLibrary.Client\\MathLibrary.Client.csproj|solutionrelative:mathlibrary.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C273602-B56B-4ADB-B597-4F9928DFEEAB}|MathLibrary.Client\\MathLibrary.Client.csproj|c:\\users\\texav\\desktop\\mathlibraryproject\\mathlibrary\\mathlibrary.client\\mathlibrary.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3C273602-B56B-4ADB-B597-4F9928DFEEAB}|MathLibrary.Client\\MathLibrary.Client.csproj|solutionrelative:mathlibrary.client\\mathlibrary.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -26,15 +26,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MathLibrary.Client.csproj",
-              "DocumentMoniker": "C:\\Users\\texav\\source\\repos\\MathLibrary\\MathLibrary.Client\\MathLibrary.Client.csproj",
+              "DocumentMoniker": "C:\\Users\\texav\\Desktop\\MathLibraryProject\\MathLibrary\\MathLibrary.Client\\MathLibrary.Client.csproj",
               "RelativeDocumentMoniker": "MathLibrary.Client\\MathLibrary.Client.csproj",
-              "ToolTip": "C:\\Users\\texav\\source\\repos\\MathLibrary\\MathLibrary.Client\\MathLibrary.Client.csproj",
+              "ToolTip": "C:\\Users\\texav\\Desktop\\MathLibraryProject\\MathLibrary\\MathLibrary.Client\\MathLibrary.Client.csproj",
               "RelativeToolTip": "MathLibrary.Client\\MathLibrary.Client.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -42,40 +42,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\texav\\source\\repos\\MathLibrary\\MathLibrary.Client\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\texav\\Desktop\\MathLibraryProject\\MathLibrary\\MathLibrary.Client\\Program.cs",
               "RelativeDocumentMoniker": "MathLibrary.Client\\Program.cs",
-              "ToolTip": "C:\\Users\\texav\\source\\repos\\MathLibrary\\MathLibrary.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\texav\\Desktop\\MathLibraryProject\\MathLibrary\\MathLibrary.Client\\Program.cs",
               "RelativeToolTip": "MathLibrary.Client\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T09:17:58.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Calculator.cs",
-              "DocumentMoniker": "C:\\Users\\texav\\source\\repos\\MathLibrary\\MathLibrary\\Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\texav\\Desktop\\MathLibraryProject\\MathLibrary\\MathLibrary\\Calculator.cs",
               "RelativeDocumentMoniker": "MathLibrary\\Calculator.cs",
-              "ToolTip": "C:\\Users\\texav\\source\\repos\\MathLibrary\\MathLibrary\\Calculator.cs",
-              "RelativeToolTip": "MathLibrary\\Calculator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\texav\\Desktop\\MathLibraryProject\\MathLibrary\\MathLibrary\\Calculator.cs*",
+              "RelativeToolTip": "MathLibrary\\Calculator.cs*",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAcwGEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T09:15:09.086Z"
+              "WhenOpened": "2025-10-16T09:15:09.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\texav\\source\\repos\\MathLibrary\\MathLibrary\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\texav\\Desktop\\MathLibraryProject\\MathLibrary\\MathLibrary\\Program.cs",
               "RelativeDocumentMoniker": "MathLibrary\\Program.cs",
-              "ToolTip": "C:\\Users\\texav\\source\\repos\\MathLibrary\\MathLibrary\\Program.cs",
+              "ToolTip": "C:\\Users\\texav\\Desktop\\MathLibraryProject\\MathLibrary\\MathLibrary\\Program.cs",
               "RelativeToolTip": "MathLibrary\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T09:13:16.017Z"
+              "WhenOpened": "2025-10-16T09:13:16.017Z",
+              "EditorCaption": ""
             }
           ]
         }

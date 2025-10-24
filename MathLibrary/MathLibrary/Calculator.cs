@@ -75,10 +75,14 @@ namespace MathLibrary
         /// <summary>
         /// Вычисление факториала числа.
         /// </summary>
-        public static long Factorial(int n)
+        public static long Factorial(int n) //вычисление факториала, обработка исключений дополнительная
         {
             if (n < 0)
-                throw new ArgumentException("Факториал определен только для неотрицательных чисел.");
+                throw new ArgumentException($"Факториал не определен для отрицательных чисел: {n}");
+
+            if (n > 20)
+                throw new ArgumentException($"Факториал {n} слишком велик для типа long");
+
             if (n == 0 || n == 1)
                 return 1;
 
@@ -90,44 +94,83 @@ namespace MathLibrary
             return result;
         }
 
-        /// <summary>
-        /// Решение квадратного уравнения.
-        /// </summary>
-        /// <returns>true - если есть действительные корни, false - в противном случае</returns>
-        public static bool SolveQuadratic(double a, double b, double c, out double? x1, out double? x2)
+        public static bool SolveQuadratic(double a, double b, double c, out double? x1, out double? x2) 
+            //решение квадратного уравнения, обработка исключений дополнительная
         {
             x1 = null;
             x2 = null;
 
+            if (double.IsNaN(a) || double.IsNaN(b) || double.IsNaN(c))
+                throw new ArgumentException("Коэффициенты не могут быть NaN");
+
             if (a == 0)
             {
-                //это линейное уравнение, а не квадратное
-                if (b != 0)
+                if (b == 0)
                 {
-                    x1 = -c / b;
-                    return true;
+                    if (c == 0)
+                        throw new ArgumentException("Уравнение 0 = 0 имеет бесконечное число решений");
+                    return false;
                 }
-                return false;
+
+                x1 = -c / b;
+                return true;
             }
 
             double discriminant = b * b - 4 * a * c;
 
             if (discriminant < 0)
             {
-                return false; //нет действительных корней
+                return false;
             }
-            else if (discriminant == 0)
+
+            if (discriminant == 0)
             {
                 x1 = -b / (2 * a);
                 x2 = x1;
                 return true;
             }
-            else
-            {
-                x1 = (-b + Math.Sqrt(discriminant)) / (2 * a);
-                x2 = (-b - Math.Sqrt(discriminant)) / (2 * a);
-                return true;
-            }
+
+            double sqrtDiscriminant = Math.Sqrt(discriminant);
+            x1 = (-b + sqrtDiscriminant) / (2 * a);
+            x2 = (-b - sqrtDiscriminant) / (2 * a);
+            return true;
+        }
+        /// <summary>
+        /// Вычисление площади круга по радиусу
+        /// </summary>
+        public static double CircleArea(double radius)
+        {
+            if (radius < 0)
+                throw new ArgumentException("Радиус не может быть отрицательным");
+
+            return Math.PI * radius * radius;
+        }
+
+        /// <summary>
+        /// Конвертация градусов Цельсия в Фаренгейт
+        /// </summary>
+        public static double CelsiusToFahrenheit(double celsius)
+        {
+            return (celsius * 9 / 5) + 32;
+        }
+
+        /// <summary>
+        /// Конвертация градусов Фаренгейта в Цельсий
+        /// </summary>
+        public static double FahrenheitToCelsius(double fahrenheit)
+        {
+            return (fahrenheit - 32) * 5 / 9;
+        }
+
+        /// <summary>
+        /// Расчет гипотенузы прямоугольного треугольника по двум катетам
+        /// </summary>
+        public static double Hypotenuse(double a, double b)
+        {
+            if (a < 0 || b < 0)
+                throw new ArgumentException("Длины катетов не могут быть отрицательными");
+
+            return Math.Sqrt(a * a + b * b);
         }
     }
 }

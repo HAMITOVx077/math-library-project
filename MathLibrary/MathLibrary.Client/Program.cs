@@ -41,6 +41,18 @@
             Console.WriteLine("\n5. Квадратные уравнения:");
             SolveAndPrint(1, -3, 2);
             SolveAndPrint(1, 0, 1);
+
+            Console.WriteLine("\n--- Новые математические функции ---");
+
+            //площадь круга
+            Console.WriteLine($"Площадь круга с радиусом 5: {Calculator.CircleArea(5):F2}");
+
+            //конвертация температур
+            Console.WriteLine($"25°C в Фаренгейтах: {Calculator.CelsiusToFahrenheit(25):F1}°F");
+            Console.WriteLine($"77°F в Цельсиях: {Calculator.FahrenheitToCelsius(77):F1}°C");
+
+            //гипотенуза
+            Console.WriteLine($"Гипотенуза треугольника с катетами 3 и 4: {Calculator.Hypotenuse(3, 4)}");
         }
 
         static void SolveAndPrint(double a, double b, double c)
